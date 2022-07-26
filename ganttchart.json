@@ -4,7 +4,7 @@
 	"name": "Demo chart",
 	"description": "A chart demo",
 	"newInstancePrefix": "chart",
-	"icon": "https://marylinem.github.io/columnChart/chart/icon.png",
+	"icon": "https://marylinem.github.io/ganttChart/ganttchart/icon.png",
 	"vendor": "Demo",
 	"eula": "EULA",
 	"license": "1.0",
@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-demo-chart",
-			"url": "https://marylinem.github.io/columnChart/chart/chart.js",
+			"url": "https://marylinem.github.io/ganttChart/ganttchart/gantt.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}	
