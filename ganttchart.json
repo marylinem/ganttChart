@@ -1,8 +1,8 @@
 {
-	"id": "com.demo.chart",
+	"id": "com.demo.ganttchart",
 	"version": "1.0.0",
-	"name": "Demo chart",
-	"description": "A chart demo",
+	"name": "Demo Gantt Chart",
+	"description": "A gantt chart demo",
 	"newInstancePrefix": "chart",
 	"icon": "https://marylinem.github.io/ganttChart/ganttchart/icon.png",
 	"vendor": "Demo",
