@@ -109,7 +109,7 @@
 		var colors = chart.get("colors");
 		
 		// Data
-		var data = myDataBinding.data.map((e)=>({country:e.dimensions_0.label,value:e.measures_0.raw}))
+		var data = myDataBinding.data.map((e)=>({_:e.dimensions_0.label,value:e.measures_0.raw}))
 		
 		
 		// Create axes
