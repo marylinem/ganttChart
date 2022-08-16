@@ -111,13 +111,12 @@
 		// Data
 		var data = myDataBinding.data.map((e)=>({
 			category:e.dimensions_0.label,
-			value:e.measures_0.raw,
-  			start: new Date(2016, 2, 8).getTime(),
-  			end: new Date(2016, 2, 30).getTime(),
+  			start: e.dimensions_0.label,
+  			end: e.dimensions_0.label,
 			columnSettings: {
 				fill: am5.Color.brighten(colors.getIndex(8), 1.2)
 			},
-			task: "Testing and QA"
+			task: e.measures_0.raw
 		}))
 
 	
