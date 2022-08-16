@@ -109,16 +109,17 @@
 		var colors = chart.get("colors");
 		
 		// Data
-		//var data = myDataBinding.data.map((e)=>({_:e.dimensions_0.label,value:e.measures_0.raw}))
-		var data = [{
-			category: "Module #1",
-			start: new Date(2016, 0, 1).getTime(),
-			end: new Date(2016, 0, 14).getTime(),
+		var data = myDataBinding.data.map((e)=>({
+			category:e.dimensions_0.label,
+			value:e.measures_0.raw,
+  			start: new Date(2016, 2, 8).getTime(),
+  			end: new Date(2016, 2, 30).getTime(),
 			columnSettings: {
-			fill: am5.Color.brighten(colors.getIndex(0), 0)
+				fill: am5.Color.brighten(colors.getIndex(8), 1.2)
 			},
-			task: "Gathering requirements"
-		}]
+			task: "Testing and QA"
+		}))
+
 	
 		// Create axes
 		// https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
