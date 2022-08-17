@@ -118,7 +118,7 @@
 			},
 			task: e.dimensions_3.label
 		}))
-		console.log(myDataBinding.data[0].dimensions_1.id.split(' ')[3])
+		console.log(myDataBinding.data[0].dimensions_1.id.split(".&")[1])
 	
 		// Create axes
 		// https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
