@@ -59,7 +59,7 @@
 		"myDataBinding": {
 			"feeds": [
 				{
-					"id": "dimensions",
+					"id": "dimensions0",
 					"description": "Dimensions",
 					"type": "dimension"
 				},
@@ -70,6 +70,11 @@
 				},
 				{
 					"id": "dimensions2",
+					"description": "Dimensions",
+					"type": "dimension"
+				},
+				{
+					"id": "dimensions3",
 					"description": "Dimensions",
 					"type": "dimension"
 				},
