@@ -118,8 +118,8 @@
 			},
 			task: e.dimensions_3.label
 		}))
-		console.log(this.myDataBinding.data.dimensions_1.id)
-		console.log(this.myDataBinding.data.dimensions_1.label)
+		console.log(myDataBinding.data[0].dimensions_1.id)
+		console.log(myDataBinding.data.dimensions_1.label)
 
 	
 		// Create axes
