@@ -48,7 +48,7 @@
 			console.log(document,shadowRoot.querySelector("#chartdiv"))
 			console.log(this.myDataBinding)
 			console.log("Data Binding funktioniert")
-			chart(shadowRoot);
+			chart(shadowRoot,this.myDataBinding);
 
 		}
 	}	
