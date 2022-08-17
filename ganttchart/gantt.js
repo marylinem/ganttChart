@@ -111,8 +111,8 @@
 		// Data
 		var data = myDataBinding.data.map((e)=>({
 			category:e.dimensions_0.label,
-  			start:e.dimensions_1.label,
-  			end:e.dimensions_2.label,
+  			start: new Date(2016, 2, 8).getTime(),
+  			end: new Date(2016, 2, 30).getTime(),
 			columnSettings: {
 				fill: am5.Color.brighten(colors.getIndex(8), 1.2)
 			},
@@ -131,11 +131,9 @@
 		);
 		
 		yAxis.data.setAll([
-			{ category: "Module #1" },
-			{ category: "Module #2" },
-			{ category: "Module #3" },
-			{ category: "Module #4" },
-			{ category: "Module #5" }
+			{ category: "Module 1" },
+			{ category: "Module 2" },
+			{ category: "Module 3" },
 		]);
 		
 		var xAxis = chart.xAxes.push(
