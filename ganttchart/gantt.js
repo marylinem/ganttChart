@@ -111,8 +111,8 @@
 		// Data
 		var data = myDataBinding.data.map((e)=>({
 			category:e.dimensions_0.label,
-  			start: e.dimensions_0.label.getTime(),
-  			end: e.dimensions_0.label.getTime(),
+  			start: new Date(e.dimensions_0.label).getTime(),
+  			end: new Date(e.dimensions_0.label).getTime(),
 			columnSettings: {
 				fill: am5.Color.brighten(colors.getIndex(8), 1.2)
 			},
