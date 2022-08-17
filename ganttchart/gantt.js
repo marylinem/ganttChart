@@ -131,9 +131,9 @@
 		);
 		
 		yAxis.data.setAll([
-			{ category: "Module 1" },
-			{ category: "Module 2" },
-			{ category: "Module 3" },
+			{ category: "Modul 1" },
+			{ category: "Modul 2" },
+			{ category: "Modul 3" },
 		]);
 		
 		var xAxis = chart.xAxes.push(
