@@ -111,14 +111,15 @@
 		// Data
 		var data = myDataBinding.data.map((e)=>({
 			category:e.dimensions_0.label,
-  			start: new Date(e.dimensions_1.id.split(".&")[1]).getTime(),
-  			end: new Date(e.dimensions_2.id.split(".&")[1]).getTime(),
+  			start: new Date(e.dimensions_1.id.split('.&[').pop().split(']')[0]).getTime(),
+  			end: new Date(e.dimensions_1.id.split('.&[').pop().split(']')[0]).getTime(),
 			columnSettings: {
 				fill: am5.Color.brighten(colors.getIndex(8), 1.2)
 			},
 			task: e.dimensions_3.label
 		}))
-		console.log(myDataBinding.data[0].dimensions_1.id.split(".&")[1])
+		console.log(myDataBinding.data[0].dimensions_1.id.split('.&[').pop().split(']')[0])
+		
 	
 		// Create axes
 		// https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
