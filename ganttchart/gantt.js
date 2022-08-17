@@ -70,7 +70,7 @@
 	}
 
 
-	function chart(shadowRoot){
+	function chart(shadowRoot,myDataBinding){
 		console.log("code funktioniert");
 		am5.ready(function() {
 
