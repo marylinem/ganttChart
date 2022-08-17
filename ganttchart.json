@@ -64,6 +64,16 @@
 					"type": "dimension"
 				},
 				{
+					"id": "dimensions1",
+					"description": "Dimensions",
+					"type": "dimension"
+				},
+				{
+					"id": "dimensions2",
+					"description": "Dimensions",
+					"type": "dimension"
+				},
+				{
 					"id": "measures",
 					"description": "Measures",
 					"type": "mainStructureMember"

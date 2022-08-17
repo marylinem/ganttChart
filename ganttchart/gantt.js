@@ -110,13 +110,13 @@
 		
 		// Data
 		var data = myDataBinding.data.map((e)=>({
-			category:e.dimensions_0.label,
+			category:e.measures_0.raw,
   			start: e.dimensions_0.label,
-  			end: e.dimensions_0.label,
+  			end: e.dimensions_1.label,
 			columnSettings: {
 				fill: am5.Color.brighten(colors.getIndex(8), 1.2)
 			},
-			task: e.measures_0.raw
+			task: e.dimensions_3.label
 		}))
 
 	
